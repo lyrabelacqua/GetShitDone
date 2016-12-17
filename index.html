@@ -3,71 +3,79 @@
     <head>
         <meta charset="utf-8">
         <title>GET SHIT DONE</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <h1>GET SHIT DONE</h1>
-            <p>Get Shit Done is your handy, easy to navigate to-do-list application that is going to help you, well, get your shit done.</p>
+            <p class="info">Get Shit Done is your handy, easy to navigate to-do-list application that is going to help you, well, get your shit done.</p>
         </header>
         
         <main>
-            <h2>New thing to do? Add it here!</h2>
-            <div>
-                <input type="text"> <input type="submit" value="Add new task">
+            <h2>new thing to do? add it here!</h2>
+            <div class="input">
+                <input type="text" id="taskinput" placeholder="Wash dirty socks..."> <input type="button" value="Add new task" id="taskConfirm">
             </div>
-            <h2>Shit not yet done</h2>
+            <h2 class="listH2">things not yet done</h2>
             
             <!-- info dla listy do wyCssowania-->
             
-                
-            <div>
-                Done?
-            </div>
-            <div>
-                Task details
-            </div>        
+            <div class="tasks">
+                <div class="listheader">
+                    <div>
+                        <span>Done?</span>
+                    </div>
+                    <div>
+                        Task details
+                    </div> 
+                </div>  
                
             
             <!-- divy w li żeby było łatwiej stylować-->
-            <ul>
-                <li>
-                    <div>
-                        <input type="checkbox">
-                     </div>   
-                     <div> 
-                        <header>Task 1</header>
-                        <p>Add your own description...</p>
-                        <footer>Created 25 Nov 2016</footer>
-                     </div>     
+                <ul class="list">
+                    <li>
+                        <div>
+                            <input type="checkbox">
+                        </div>   
+                        <div> 
+                            <header>Task 1</header>
+                            <p>Add your own description...</p>
+                            <p>Created 25 Nov 2016</p>
+                        </div>     
                  </li>       
                  
-                <li>
-                    <div>
-                        <input type="checkbox">
-                     </div>   
-                      <div>  
-                            <header>Task 2</header>
+                    <li>
+                        <div>
+                            <input type="checkbox">
+                        </div>   
+                        <div>  
+                            <header> Task 2</header>
                             <p>Add your own description...</p>
-                            <footer>Created 25 Nov 2016</footer>
-                      </div>  
-                 </li>        
+                            <p>Created 25 Nov 2016</p>
+                        </div>  
+                    </li>        
                         
-                <li>
-                    <div>   
-                        <input type="checkbox">
-                    </div>
-                    <div>
-                        <header>Task 3</header>
-                        <p>Add your own description...</p>
-                        <footer>Created 25 Nov 2016</footer>
-                    </div> 
-                </li>
+                    <li>
+                        <div>   
+                            <input type="checkbox">
+                        </div>
+                        <div>
+                            <header>Task 3</header>
+                            <p>Add your own description...</p>
+                            <p>Created 25 Nov 2016</p>
+                        </div> 
+                    </li>
                 </ul>
-            <input type="button" value="Delete all done">
+                
+            </div>
+            <div class="donebutton">
+                <input type="button" value="Delete all done" id="deleteDone">
+            </div>
+            
         </main>
             
         <footer>
-            <b>Get Shit Done</b> is an app created by Monika Kłokosińska during Sealcode winter workshops. 
+            <strong>Get Shit Done</strong> is an app created by Monika Kłokosińska during Sealcode winter workshops. 
         </footer>
     </body>
 </html>

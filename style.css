@@ -1,0 +1,207 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+}
+
+body {
+    font-family: Verdana;
+    background-color: #F5F1FF;
+}
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+header {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+h1 {
+    text-align: center;
+    line-height: 3rem;
+    color: #3B4078;
+    font-size: 2rem;
+
+}
+
+.info {
+    line-height: 1rem;
+    font-size: 0.5rem;
+    margin-top: -1.5rem;
+    text-align: center;
+    color: #15111F;
+}
+
+main h2 {
+    margin-top: 2rem;
+    line-height: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #696B94;
+    font-variant: small-caps;
+}
+
+.input {
+    width: 14rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}  
+
+#taskinput {
+    width: 10rem;
+    height: 1rem;
+    padding-left: 0.3rem;
+    font-size: 0.45rem
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #C2B9A9;
+  padding-left: 0.3rem;
+  font-size: 0.45rem;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #C2B9A9;
+  padding-left: 0.3rem;
+  font-size: 0.45rem;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #C2B9A9;
+  padding-left: 0.3rem;
+  font-size: 0.45rem;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #C2B9A9;
+  padding-left: 0.3rem;
+  font-size: 0.45rem;
+}
+
+
+#taskConfirm {
+    box-shadow:none;
+    border: none;
+    width: 3rem;
+    background-color: #EAE3FF;
+    color: #8E8284;
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+    font-size: 0.4rem;
+    width: 100%;
+    margin: 0;
+}
+
+.list > li {
+    display: flex;
+    align-items: center;
+    border-bottom: dashed #A292AE 1px;
+    background-color: #FAF8FF;
+    color: #70A996;
+}
+
+.list > li:last-child {
+     border-bottom: none;
+}
+
+.list > li:nth-child(2n+1) {
+    background-color: #EAE3FF;
+    color: #8E8284;
+}
+
+.list li div:first-child {
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.list li div:last-child {
+    border-left: solid #A292AE 1px;
+    width: 17rem;
+}
+
+.list li div p {
+    padding-left: 0.5rem;
+}
+
+.list li header {
+    margin: 0;
+    margin-top: 0.3rem;
+    display: inline-block;
+    width: 16rem;
+    padding-left: 0.5rem;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.listheader {
+    display: flex;
+    font-size: 0.5rem;
+    width: 100%;
+    height: 1.5rem;
+    border-bottom: solid #A292AE 1px;
+    background-color: #F1F1F1;
+    color: #105C5F;
+    box-sizing: border-box;
+    
+}
+
+.listheader div:first-child {
+    display: flex;
+    width: 3rem;
+    border-right: solid #A292AE 1px;
+    align-items: center;
+    justify-content: center;
+}
+
+.listheader div:last-child {
+    width: 17rem;
+    align-self: center;
+    text-align: center;
+}
+
+.listH2 {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.tasks {
+    width: 20rem;
+    margin: 0 auto;
+    border: solid #A292AE 1px;
+    margin-top: 1.5rem;
+}
+
+.donebutton {
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+#deleteDone, #deleteDone:focus {
+    box-shadow:none;
+    border: none;
+    width: 4rem;
+    height: 1rem;
+    background-color: #EAE3FF;
+    color: #8E8284;
+}
+
+footer {
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 0.4rem;
+    width: 90vw;
+    line-height: 1rem;
+}
+
+footer strong {
+    color: #8E8284;
+}
