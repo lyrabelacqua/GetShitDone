@@ -1,0 +1,23 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyrabelacqua/GetShitDone.git"
+  },
+  "author": "Monika Kłokosińska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyrabelacqua/GetShitDone/issues"
+  },
+  "homepage": "https://github.com/lyrabelacqua/GetShitDone#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
